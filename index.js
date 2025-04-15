@@ -42,4 +42,6 @@ sayHy();
 // objects and more
 // right now got it i guess or not
 
-let test = 01
+const test = 1
+const age = 10
+
