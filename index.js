@@ -230,6 +230,6 @@ console.log(hourChecker(10));
 
 //10. ARROW FUNCTION RETURN LARGER ONE
 
-let toLargerNumber = (x, y) => (x > y ? x : y);
+let toLargerNumber = (x, y) => x > y ? x : y;
 
 console.log(toLargerNumber(100, 220));
