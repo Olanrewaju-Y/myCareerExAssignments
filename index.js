@@ -115,6 +115,11 @@ console.log(jssOne);
 console.log(jssTwo);
 console.log(jssThree);
 
+
+
+// WEEK 4 ASSIGNMENTS
+
+
 //1. FUNCTION score >= 180
 
 function scoreResult(score) {
@@ -222,14 +227,37 @@ usernameOrPassword("65165465", "");
 
 //9. USING TERNARY OPERATOR
 
-function hourChecker(hours) {
-  return hours >= 40 ? "Full-time" : "Part-time";
-}
-
-console.log(hourChecker(10));
+// function hourChecker(hours) {
+//   return hours >= 40 ? "Full-time" : "Part-time";
+// }
+  const hours = 41;
+  const hourChecker = hours >= 40 ? "Full-time" : "Part-time" ;
+    console.log(hourChecker);
 
 //10. ARROW FUNCTION RETURN LARGER ONE
 
-let toLargerNumber = (x, y) => x > y ? x : y;
+const toLargerNumber = (x, y) => x > y ? x : y;
 
-console.log(toLargerNumber(100, 220));
+console.log(toLargerNumber(105, 100));
+
+
+// DESIGNING A SEARCH 
+
+const dataBase = [
+  "james",  "kola",  "john",  "Rashida",  "Kudi",  "bukki",  "Debby",  "Tope",  "Ope",  "Ugo", "200" , "300"
+];
+
+function inputchecker(searcherInput) {
+  if (dataBase.map(name => name.toLowerCase()).includes(searcherInput.toLowerCase())) {
+    console.log(searcherInput);
+} else {
+  console.log("Not avaliable!");
+}
+}
+
+inputchecker("200")
+ 
+  
+ 
+
+ 
