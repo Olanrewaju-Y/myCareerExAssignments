@@ -238,7 +238,6 @@ usernameOrPassword("65165465", "");
 
 const toLargerNumber = (x, y) => x > y ? x : y;
 
-<<<<<<< HEAD
 console.log(toLargerNumber(105, 100));
 
 
@@ -258,21 +257,10 @@ function inputchecker(searcherInput) {
 
 inputchecker("200")
  
-  
- 
-
- 
-=======
 console.log(toLargerNumber(100, 220));
 
 
-
-
-
-
-//
-
-
+// WEEK 5 ASSIGNMENT
 
 
 const drugs = [
@@ -298,28 +286,29 @@ const drugs = [
  { id: 20, name: "Folic Acid", category: "Supplement", dosageMg: 5, isPrescriptionOnly: false, stock: 250, manufacturer: "Nature’s Bounty" }
 ];
 
+//QUESTIONS
+
+// 1. Get all drugs that are antibiotics.
+
+const getAntibiotic = drugs.filter(drug => drug.category === "Antibiotic")
+console.log(getAntibiotic);
+
+// 2. Return an array of drug names in lowercase.
+
+// 3. Write a function that accepts a category and returns all drugs under that category.
+
+// 4. Log each drug’s name and its manufacturer.
+
+// 5. Return all drugs that require a prescription.
+
+// 6. Return a new array, each item should follow the format: "Drug: [name] - [dosageMg]mg".
+
+// 7. Write a function that returns all drugs with a stock less than 50.
+
+// 8. Return all drugs that are not prescription-only.
+
+// 9. Write a function that takes a manufacturer name and returns how many drugs are from that company.
+
+// 10. Use forEach() to count how many drugs are Analgesics.
 
 
-
-1. Get all drugs that are antibiotics.
-
-2. Return an array of drug names in lowercase.
-
-3. Write a function that accepts a category and returns all drugs under that category.
-
-4. Log each drug’s name and its manufacturer.
-
-5. Return all drugs that require a prescription.
-
-6. Return a new array, each item should follow the format: "Drug: [name] - [dosageMg]mg".
-
-7. Write a function that returns all drugs with a stock less than 50.
-
-8. Return all drugs that are not prescription-only.
-
-9. Write a function that takes a manufacturer name and returns how many drugs are from that company.
-
-10. Use forEach() to count how many drugs are Analgesics.
-
-
->>>>>>> 63b8e839eacfcc44fdd0288d750f7a2a32833d90
