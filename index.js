@@ -505,7 +505,7 @@ const dCR = drugs.forEach((drug) => {
   if (drug.category === "Analgesic") {
     const dC = drug.category;
     console.log(dC);
-    // } else {
+     // } else {
     //     console.log(`Not Analgesic`);
   }
 });
